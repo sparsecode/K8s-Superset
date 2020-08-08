@@ -1,2 +1,2 @@
 deploy:
-  - kustomize build  k8s-manifest/profile/other | kubectl apply -f -
+  - kustomize build  profile/other | kubectl apply -f -
