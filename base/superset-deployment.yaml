@@ -4,7 +4,9 @@ metadata:
   name: superset
   labels:
     app: superset
-    tier: superset  
+    tier: superset
+  annotations:
+    dev.okteto.com/auto-ingress: "true"  
 spec:
   ports:
     - name: http
